@@ -1,0 +1,23 @@
+body { background:#f5f0ff; font-family:Arial; }
+
+.card {
+  background:white;
+  padding:10px;
+  margin:10px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(106,90,205,0.2);
+}
+
+button {
+  background:#9370db;
+  color:white;
+  border:none;
+  padding:6px;
+  border-radius:5px;
+}
+
+.input {
+  padding:6px;
+  margin:5px 0;
+  width:100%;
+}
