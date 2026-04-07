@@ -1,7 +1,14 @@
 {
+  "name": "event-platform",
+  "version": "1.0.0",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs"
+  },
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
+    "mongodb": "^7.1.1",
     "mongoose": "^9.3.3"
   }
 }
