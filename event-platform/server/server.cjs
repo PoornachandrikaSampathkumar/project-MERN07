@@ -10,8 +10,7 @@ app.use(express.json());
 
 /* ================= DB ================= */
 mongoose.connect(
-  "mongodb://username:<db_password>@ac-tyv05j8-shard-00-00.ta8ms1g.mongodb.net:27017,ac-tyv05j8-shard-00-01.ta8ms1g.mongodb.net:27017,ac-tyv05j8-shard-00-02.ta8ms1g.mongodb.net:27017/eventDB?ssl=true&replicaSet=atlas-1383qb-shard-0&authSource=admin&retryWrites=true&w=majority"
-)
+ "mongodb://admin:jkevent07@ac-tyv05j8-shard-00-00.ta8ms1g.mongodb.net:27017,ac-tyv05j8-shard-00-01.ta8ms1g.mongodb.net:27017,ac-tyv05j8-shard-00-02.ta8ms1g.mongodb.net:27017/eventDB?ssl=true&replicaSet=atlas-1383qb-shard-0&authSource=admin&retryWrites=true&w=majority"
 .then(() => console.log("✅ MongoDB Atlas Connected"))
 .catch(err => console.log("❌ DB Error:", err));
 
